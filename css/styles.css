@@ -246,7 +246,7 @@ h1, h2 {
     gap: 24px;
     justify-content: center;
     align-items: center;
-    padding-bottom: 32px;
+    padding-top: 8px;
 }
 .social-container-link {
     display: flex;
@@ -262,9 +262,13 @@ h1, h2 {
 .icon-social{
     fill: #f4f4fd;
 }
-.social-container-item:hover .social-container-link, 
-.social-container-item:focus .social-container-link, 
-.social-container-item:active .social-container-link {
+.social-container-item:hover .social-container-link {
+    background-color: #404bbf;
+} 
+.social-container-item:focus .social-container-link {
+    background-color: #404bbf;
+}
+.social-container-item:focus {
     background-color: #404bbf;
 }
 .features-title, .team-name, .portfolio-title {
