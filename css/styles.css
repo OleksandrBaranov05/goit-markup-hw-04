@@ -246,7 +246,6 @@ h1, h2 {
     gap: 24px;
     justify-content: center;
     align-items: center;
-    padding-top: 8px;
 }
 .social-container-link {
     display: flex;
@@ -280,7 +279,7 @@ h1, h2 {
     letter-spacing: 0.02em;
     color: #434455;
 }
-.team-name, .portfolio-title, .features-title{
+.team-name, .portfolio-title, .features-title, .team-role {
     margin-bottom: 8px;
 }
 .team {
