@@ -262,15 +262,9 @@ h1, h2 {
 .icon-social{
     fill: #f4f4fd;
 }
-.social-container-item:hover .social-container-link {
+.social-container-link:hover, .social-container-link:focus {
     background-color: #404bbf;
 } 
-.social-container-item:focus .social-container-link {
-    background-color: #404bbf;
-}
-.social-container-item:focus {
-    background-color: #404bbf;
-}
 .features-title, .team-name, .portfolio-title {
     font-weight: 500;
     font-size: 20px;
